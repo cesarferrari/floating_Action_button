@@ -1,4 +1,7 @@
 
+import 'package:drawer_floating_action_button_appbar/drawers/bottomnavigation.dart';
+import 'package:drawer_floating_action_button_appbar/jugadores/ranking.dart';
+import 'package:drawer_floating_action_button_appbar/jugadores/scroll_players.dart';
 import 'package:flutter/material.dart';
 
 import 'circular.dart';
@@ -23,12 +26,14 @@ backgroundColor: Colors.white,
    body: Column(
 
      children: <Widget>[
-       SizedBox(height: 120,),
+
        curva(),
+       Ranking(),
+
 
      ],
    ),
-
+bottomNavigationBar: butomnavigationbar(),
  );
   }
 
