@@ -16,13 +16,13 @@ class _admin1State extends State<admin1> {
       body: Center(
         child: Column(
           children: <Widget>[
-            ligas1(),
+            ligas1("Administrador","Mis ligas"),
             listaA(),
             boton_agrega(),
           ],
         ),
       ),
-         bottomNavigationBar: butomnavigationbar(),
+
 
     );
   }

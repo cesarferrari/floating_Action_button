@@ -13,13 +13,13 @@ class Admin2 extends StatelessWidget{
       body: Center(
         child: Column(
           children: <Widget>[
-            ligas1(),
+            ligas1("Administrador","Mis ligas"),
             listaA(),
             Formulario_competencia(),
           ],
         ),
       ),
-      bottomNavigationBar: butomnavigationbar(),
+
 
     );
   }

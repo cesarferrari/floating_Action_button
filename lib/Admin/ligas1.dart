@@ -1,6 +1,17 @@
+import 'package:drawer_floating_action_button_appbar/ajustes/Ajustes.dart';
 import 'package:flutter/material.dart';
 
+import '../ajustes/Configuracion.dart';
+
 class ligas1 extends StatelessWidget{
+  String cabecera="";
+  String inferior="";
+   ligas1(this.cabecera,this.inferior){
+
+  }
+  void buscar(){
+
+  }
   @override
   Widget build(BuildContext context) {
    return  SafeArea(
@@ -26,7 +37,7 @@ class ligas1 extends StatelessWidget{
                      ),
                      child: Center(
                        child: Text(
-                         'Admin',
+                         cabecera,
                          style: TextStyle(
                              fontSize: 18,
                              color: Colors.white,
@@ -38,11 +49,13 @@ class ligas1 extends StatelessWidget{
              SizedBox(
                width: 30,
              ),
-             IconButton(onPressed: () {}, icon: Icon(Icons.construction_outlined)),
+             IconButton(onPressed: () {
+               Navigator.push(context, MaterialPageRoute(builder: (context)=>Ajustes()));
+             }, icon: Icon(Icons.construction_outlined)),
            ],
          ),
          SizedBox(height: 35),
-         Text('Mis ligas',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+         Text(inferior,style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
        ],
 
      ),

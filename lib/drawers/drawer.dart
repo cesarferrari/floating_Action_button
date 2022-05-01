@@ -20,7 +20,7 @@ class drawer extends StatelessWidget {
         ],
       ),
       drawer: drawerlayout(),
-      bottomNavigationBar: butomnavigationbar(),
+    //  bottomNavigationBar: butomnavigationbar(),
       body: Center(
         child: Container(
           child: ListView(

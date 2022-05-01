@@ -30,7 +30,7 @@ backgroundColor: Colors.white,
 
      ],
    ),
-bottomNavigationBar: butomnavigationbar(),
+//bottomNavigationBar: butomnavigationbar(),
  );
   }
 

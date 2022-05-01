@@ -12,7 +12,7 @@ class _RankPlayerState extends State<RankPlayer> {
   @override
   double height=25.0;
   Widget build(BuildContext context) {
-    final contenedor_info =Provider.of<ContenedorInfo>(context);
+   // final contenedor_info =Provider.of<ContenedorInfo>(context);
 
     return
        Padding(
@@ -26,7 +26,7 @@ class _RankPlayerState extends State<RankPlayer> {
                 width: double.infinity,
                 child: Row(
                   children: <Widget>[
-                    Text(contenedor_info.jugador,style: TextStyle(fontSize: 15,color: Colors.white),),
+                    Text("nada que mostarr",style: TextStyle(fontSize: 15,color: Colors.white),),
 
                   ],
                 ),
@@ -41,7 +41,7 @@ class _RankPlayerState extends State<RankPlayer> {
                 width: double.infinity,
                 child: Row(
                   children: <Widget>[
-                    Text(contenedor_info.jugador,style: TextStyle(fontSize: 15,color: Colors.white),),
+                    Text("whatever",style: TextStyle(fontSize: 15,color: Colors.white),),
 
                   ],
                 ),
@@ -65,7 +65,7 @@ class _RankPlayerState extends State<RankPlayer> {
                 width: double.infinity,
                 child: Row(
                   children: <Widget>[
-                    Text(contenedor_info.jugador,style: TextStyle(fontSize: 15,color: Colors.white),),
+                    Text("container",style: TextStyle(fontSize: 15,color: Colors.white),),
 
                   ],
                 ),

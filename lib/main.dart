@@ -5,10 +5,14 @@ import 'package:drawer_floating_action_button_appbar/login/login.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'Admin/administrador.dart';
+import 'pageView/administrador.dart';
 import 'Admin/ligas_admin.dart';
 import 'Admin/ligas_admin1.dart';
 
+import 'ajustes/Ajustes.dart';
+import 'buscar/Buscar.dart';
+import 'containers/Principal.dart';
+import 'home/Home.dart';
 import 'jugadores/jugadores.dart';
 import 'login/inicio.dart';
 
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: jugadores(),
+        home: Principal(),
 
 
     );
